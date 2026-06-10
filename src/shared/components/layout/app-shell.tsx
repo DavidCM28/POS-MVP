@@ -16,6 +16,7 @@ import {
   Search,
   Settings,
   ShoppingCart,
+  ShoppingBag,
   Tags,
   UserCog,
   Users,
@@ -37,7 +38,8 @@ type AppShellProps = {
 
 const navigation = [
   { label: "Dashboard", href: "/", icon: LayoutDashboard },
-  { label: "Caja", href: "/caja", icon: Store },
+  { label: "Negocio", href: "/negocio", icon: Store },
+  { label: "Caja", href: "/caja", icon: ShoppingBag },
   { label: "Productos", href: "/productos", icon: Tags },
   { label: "Ventas", href: "/ventas", icon: ShoppingCart },
   { label: "Reportes", href: "/reportes", icon: BarChart3 },
