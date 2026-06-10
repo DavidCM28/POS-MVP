@@ -1,10 +1,10 @@
+import { VentasSummary } from "@/modules/ventas";
 import { AppShell } from "@/shared/components/layout/app-shell";
-import { ReportesOverview } from "@/modules/reportes";
 
-export default function Home() {
+export default function VentasPage() {
   return (
     <AppShell>
-      <ReportesOverview />
+      <VentasSummary />
     </AppShell>
   );
 }

@@ -1,10 +1,10 @@
+import { AuthStatus } from "@/modules/auth";
 import { AppShell } from "@/shared/components/layout/app-shell";
-import { ReportesOverview } from "@/modules/reportes";
 
-export default function Home() {
+export default function AuthPage() {
   return (
     <AppShell>
-      <ReportesOverview />
+      <AuthStatus />
     </AppShell>
   );
 }

@@ -1,7 +1,7 @@
-import { AppShell } from "@/shared/components/layout/app-shell";
 import { ReportesOverview } from "@/modules/reportes";
+import { AppShell } from "@/shared/components/layout/app-shell";
 
-export default function Home() {
+export default function ReportesPage() {
   return (
     <AppShell>
       <ReportesOverview />
